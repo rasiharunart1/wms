@@ -279,6 +279,22 @@ warehouse-management-system/
 | `php artisan optimize` | Cache config & route (production) |
 | `php artisan config:clear` | Hapus cache config |
 
+### 📚 Dokumentasi PDF-ready
+
+Project menyediakan artefak dokumentasi formal siap ekspor PDF:
+
+- Sumber dokumen: `docs/laporan-wms-pdf-ready.md`
+- Gaya cetak: `docs/print.css`
+- Script export: `scripts/export-pdf.sh`
+
+Jalankan perintah berikut dari root project:
+
+```bash
+./scripts/export-pdf.sh
+```
+
+Hasil PDF akan dibuat di `docs/laporan-wms-pdf-ready.pdf`.
+
 ---
 
 ## 🔧 Development Workflow
